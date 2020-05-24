@@ -1,0 +1,10 @@
+body {background-color: coral;}
+body {background-image: url("image-1.jpeg");}
+
+#game{
+    margin-top: 150px;
+    padding: 70px 0;
+  
+  text-align: center;
+}
+
