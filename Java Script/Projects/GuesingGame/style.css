@@ -7,10 +7,10 @@ body {background-image: url("image-1.jpeg");}
     font-weight: 800;
     text-align: center;
     font-size:50px;
+   
+    
 }
-#game div{
-  border: 20px solid red;
-}
+
 h1{
   color: rgba(77, 5, 38, 0.726);
   padding: 240px;
@@ -21,3 +21,6 @@ h1{
  #checkguess {
   margin-bottom: 20px;
  }
+#guesinggame{
+  margin-bottom: 20%;
+}
