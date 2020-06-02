@@ -13,12 +13,16 @@ else if(hello === NaN ){
     alert("please type a number")
 
 }
-else if (hello!==randomint){
+else if (hello<20 && hello!==randomint){
     lives-=1
     document.getElementById("life").innerHTML = "you have "+ lives + " lives"+ " left";
     alert("wrong, You have ", lives , "lives left")
-// else{
-//     alert("please type a smaller value")
-// }
+}
+else if(lives<0){
+    location.reload(true)
+}
+else{
+    alert("please type a smaller value")
+    
 }
 }
