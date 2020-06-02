@@ -1,3 +1,4 @@
+
 var randomint = Math.floor(Math.random() * 21);
 alert(randomint)
 var lives = ( 5)
@@ -10,11 +11,14 @@ if (hello == randomint){
 }
 else if(hello === NaN ){
     alert("please type a number")
-}
 
-else{
+}
+else if (hello!==randomint){
     lives-=1
     document.getElementById("life").innerHTML = "you have "+ lives + " lives"+ " left";
     alert("wrong, You have ", lives , "lives left")
+// else{
+//     alert("please type a smaller value")
+// }
 }
 }
